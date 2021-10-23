@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+.link-foto img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+body{
+    background-image: url('../imagens/fundo.jpg');
+    background-size: 1400px;
+}
+
+.fotos{
+    display: flow-root;
+    text-align-last: center;
+    padding-top: 90px;
+}
+
+.titulo{
+    font-family: 'Ephesis';
+    font-weight: 600;
+    font-size: 118px;
+    text-align: center;
+    color: goldenrod;
+    padding-top: 100px;
+    -webkit-text-stroke: 1px goldenrod;
+}
